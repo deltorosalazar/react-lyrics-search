@@ -31,7 +31,10 @@ script:
   - npm run build
 ```
 
-- fsddfdf
+- Before push this file to the repository. The API key must be configured in Travis CI:
+  - In Travis CI, go to More Options -> Settings
+  - In Environment Variables, set your Musixmatch API key
+- Push this changes and an automatic build will be kicked off
 
 ## Installing Enzyme
 
